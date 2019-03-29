@@ -1,5 +1,6 @@
 node_modules/
 script_to_run/*
+!script_to_run/sample.keepdir
 yarn.lock
 package-lock.json
 .env
