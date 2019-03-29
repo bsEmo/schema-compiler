@@ -1,0 +1,16 @@
+{
+  "name": "schema-compiler",
+  "version": "1.0.0",
+  "description": "Compiles CIGActgS* procedures across the schemas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "BSE",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "inquirer": "^6.2.2",
+    "sqlanywhere": "^1.0.24"
+  }
+}

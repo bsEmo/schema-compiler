@@ -1,0 +1,4 @@
+node_modules/
+script_to_run/*
+yarn.lock
+package-lock.json
