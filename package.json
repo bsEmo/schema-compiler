@@ -9,7 +9,6 @@
   "author": "BSE",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^7.0.0",
     "inquirer": "^6.2.2",
     "sqlanywhere": "^1.0.24"
   }
