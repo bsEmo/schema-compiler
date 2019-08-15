@@ -108,7 +108,7 @@ function getDbInstance(username, password, host, dbName) {
 async function getSchemaNames(db, procName) {
   const results = await promiseQuery(db, `exec sp_stored_procedures '%${procName}'`);
 
-  return results.map(r => r.procedure_owner).sort();
+  return results.map(r => r.procedure_owner).sort((a, b) => parseInt(a.substring(8)) - parseInt(b.substring(8)));
 }
 
 async function promiseQuery(db, query) {
